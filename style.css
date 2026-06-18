@@ -242,3 +242,34 @@ footer { padding: 32px 24px; text-align: center; color: var(--muted); border-top
     padding: 26px;
   }
 }
+
+.about-section {
+  display: grid;
+  grid-template-columns: 0.8fr 1.2fr;
+  gap: 40px;
+  align-items: stretch;
+}
+
+.about-card {
+  background: linear-gradient(180deg, rgba(255,255,255,0.035), rgba(255,255,255,0.01)), var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 28px;
+  padding: 32px;
+  box-shadow: var(--shadow);
+}
+
+.about-card p {
+  color: var(--muted);
+  font-size: 1.1rem;
+  margin-bottom: 0;
+}
+
+.about-heading h2 {
+  margin-bottom: 0;
+}
+
+@media (max-width: 760px) {
+  .about-section {
+    grid-template-columns: 1fr;
+  }
+}
