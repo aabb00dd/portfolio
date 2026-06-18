@@ -273,3 +273,18 @@ footer { padding: 32px 24px; text-align: center; color: var(--muted); border-top
     grid-template-columns: 1fr;
   }
 }
+
+.about-card {
+  background: linear-gradient(180deg, rgba(255,255,255,0.035), rgba(255,255,255,0.01)), var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 28px;
+  padding: 32px;
+  box-shadow: var(--shadow);
+}
+
+.about-card p {
+  color: var(--muted);
+  font-size: 1.1rem;
+  margin-bottom: 0;
+  max-width: none;
+}
